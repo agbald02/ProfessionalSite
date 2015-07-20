@@ -88,7 +88,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\Homepage.css" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
