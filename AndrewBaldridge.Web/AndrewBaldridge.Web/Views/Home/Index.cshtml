@@ -11,17 +11,16 @@
 
     <link rel="stylesheet" href="@Url.Content("~/Content/bootstrap.css")" />
     <link rel="stylesheet" href="@Url.Content("~/Content/bootstrap-theme.css")" />
+    <link rel="stylesheet" href="@Url.Content("~/Content/ab.css")"/>
 
     <title>Andrew Baldridge</title>
 </head>
-<h1>
-</h1>
 <body>
 
     <div class="navbar navbar-inverse navbar-static-top">
         <div class="container">
 
-            <a href="http://www.andrewgbaldridge.com/" class="navbar-brand">Andrew Baldridge</a>
+            <a href="@Url.Action("Index")" class="navbar-brand">Andrew Baldridge</a>
 
             <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
                 <span class="icon-bar"></span>
@@ -33,11 +32,10 @@
 
                 <ul class="nav navbar-nav navbar-right">
 
-                    <li><a href="http://www.andrewgbaldridge.com/">Home</a></li>
+                    <li><a href="@Url.Action("Index")">Home</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="https://twitter.com/glen_baldfield" target= "_blank">Twitter</a></li>
                             <li><a href="https://www.facebook.com/andrew.g.baldridge" target="_blank">Facebook</a></li>
                             <li><a href="https://www.youtube.com/channel/UCLVRJtokdLVvvOGLUVVJcjA" target="_blank">Youtube</a></li>
                             <li><a href="https://instagram.com/glen_baldfield/" target="_blank">Instagram</a></li>
@@ -51,42 +49,44 @@
             </div>
         </div>
     </div>
-    <div class= "jumbotron">
-        <h1>
-            Developer, Entrepreneur, Beard Enthusiast
-        </h1>
-        <p>
-            I am an I.T. Professional located in Louisville, Kentucky. Currently employed at ZirMed, I am an I.T. Intern within their Engineering
-            department specifically working on internal web apps that are created primarily for monitoring and optimization purposes. As an entreprenuer I
-            am involved in the entrepreneurial community as well as a startup in the hunting industry. An avid outdoorsman, you can usually find me in a
-            creek or on a mountain bike trail on the weekends, and as of recently in a tree stand looking for my friend Mr. Whitetail Deer.
-        </p>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>
+                Developer, Entrepreneur, Beard Enthusiast
+            </h1>
+            <p>
+                I am an I.T. Professional located in Louisville, Kentucky. Currently employed at ZirMed, I am an I.T. Intern within their Engineering
+                department specifically working on internal web apps that are created primarily for monitoring and optimization purposes. As an entreprenuer I
+                am involved in the entrepreneurial community as well as a startup in the hunting industry. An avid outdoorsman, you can usually find me in a
+                creek or on a mountain bike trail on the weekends, and as of recently in a tree stand looking for my friend Mr. Whitetail Deer.
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <h1>What is Node.js?</h1>
+                <p>
+                    js is a server side scripting language from Javascript for use of application building.
+                    It is event driven and uses non-blocking in order to have the greatest optimization ability. It operates
+                    using Google’s V8, operates on a single thread, and uses event loops and package management.
+                </p>
+            </div>
+            <div class="col-md-3">
+                <h1>What is Node.js?</h1>
+                <p>
+                    js is a server side scripting language from Javascript for use of application building.
+                    It is event driven and uses non-blocking in order to have the greatest optimization ability. It operates
+                    using Google’s V8, operates on a single thread, and uses event loops and package management.
+                </p>
+            </div>
+            <div class="col-md-3">
+                <h1><a href="#" target="_blank">Resume</a></h1>
+                <p>
+                    My professional resume.
+                </p>
+            </div>
+        </div>
     </div>
-    <div class="row">
-        <div class="col-md-3">
-            <h1>What is Node.js?</h1>
-            <p>
-                js is a server side scripting language from Javascript for use of application building.
-                It is event driven and uses non-blocking in order to have the greatest optimization ability. It operates
-                using Google’s V8, operates on a single thread, and uses event loops and package management.
-            </p>
-        </div>
-        <div class="col-md-3">
-            <h1></a>What is Node.js?</h1>
-            <p>
-                js is a server side scripting language from Javascript for use of application building.
-                It is event driven and uses non-blocking in order to have the greatest optimization ability. It operates
-                using Google’s V8, operates on a single thread, and uses event loops and package management.
-            </p>
-        </div>
-        <div class="col-md-3">
-            <h1><a href="#" target="_blank">Resume</a></h1>
-            <p>
-                My professional resume.
-            </p>
-        </div>
-    </div>
-    <script src="@Url.Content("~/Scripts/jquery-2.1.4.js")"></script>
-    <script src="@Url.Content("~/Scripts/bootstrap.js")"></script>
+        <script src="@Url.Content("~/Scripts/jquery-2.1.4.js")"></script>
+        <script src="@Url.Content("~/Scripts/bootstrap.js")"></script>
 </body>
 </html>
