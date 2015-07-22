@@ -1,0 +1,63 @@
+﻿@model AndrewBaldridge.Web.Models.ContactPage
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/Content/bootstrap.css" />
+    <link rel="stylesheet" href="~/Content/bootstrap-theme.css" />
+    <link rel="stylesheet" href="~/Content/ab.css" />
+
+    <title>Andrew Baldridge</title>
+</head>
+<body>
+    @*Configuring the navbar*@
+    <div class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+
+            <a href="@Url.Action("Index")" class="navbar-brand">Andrew Baldridge</a>
+
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <div class="collapse navbar-collapse navHeaderCollapse">
+
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li><a href="@Url.Action("Index")">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="https://twitter.com/glen_baldfield" target="_blank">Twitter</a></li>
+                            <li><a href="https://www.facebook.com/andrew.g.baldridge" target="_blank">Facebook</a></li>
+                            <li><a href="https://www.youtube.com/channel/UCLVRJtokdLVvvOGLUVVJcjA" target="_blank">Youtube</a></li>
+                            <li><a href="https://instagram.com/glen_baldfield/" target="_blank">Instagram</a></li>
+                        </ul>
+
+                    </li>
+                    <li><a href="#">400 Error Test</a></li>
+                    <li><a href="#">500 Error Test</a></li>
+                    <li><a href="@Url.Action("Contact","Home")">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    @using (Html.BeginForm())
+    {
+        <p>Your name: @Html.TextBoxFor(x => x.Name)</p>
+        <p>Your email: @Html.TextBoxFor(x => x.Name)</p>
+        <p>Your phone: @Html.TextBoxFor(x => x.Name)</p>
+        <p>Message: @Html.TextAreaFor(x => x.Name)</p>
+        
+        <input type="submit" value="Send Message" />
+    }
+</body>
+</html>

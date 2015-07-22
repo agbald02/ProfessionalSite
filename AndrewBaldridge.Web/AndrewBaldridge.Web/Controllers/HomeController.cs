@@ -1,8 +1,10 @@
-﻿using System;
+﻿using AndrewBaldridge.Web.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+
 
 namespace AndrewBaldridge.Web.Controllers
 {
@@ -12,9 +14,16 @@ namespace AndrewBaldridge.Web.Controllers
         {
             return View();
         }
+        [HttpGet]
         public ViewResult Contact()
         {
             return View();
+        }
+
+        [HttpPost]
+        public ViewResult Contact(ContactPage contactPage)
+        {
+            return View("Index",contactPage);
         }
     }
 }
