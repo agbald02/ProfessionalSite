@@ -23,7 +23,15 @@ namespace AndrewBaldridge.Web.Controllers
         [HttpPost]
         public ViewResult Contact(ContactPage contactPage)
         {
-            return View("Index",contactPage);
+            if (ModelState.IsValid)
+            {
+                return View("Index", contactPage);
+            }
+            else
+            {
+                return View("Contact", contactPage);
+            }
+            
         }
     }
 }

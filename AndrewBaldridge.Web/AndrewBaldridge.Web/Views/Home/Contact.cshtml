@@ -52,10 +52,11 @@
     </div>
     @using (Html.BeginForm())
     {
+        @Html.ValidationSummary()
         <p>Your name: @Html.TextBoxFor(x => x.Name)</p>
-        <p>Your email: @Html.TextBoxFor(x => x.Name)</p>
-        <p>Your phone: @Html.TextBoxFor(x => x.Name)</p>
-        <p>Message: @Html.TextAreaFor(x => x.Name)</p>
+        <p>Your email: @Html.TextBoxFor(x => x.Email)</p>
+        <p>Your phone: @Html.TextBoxFor(x => x.Phone)</p>
+        <p>Message: @Html.TextAreaFor(x => x.Message)</p>
         
         <input type="submit" value="Send Message" />
     }
