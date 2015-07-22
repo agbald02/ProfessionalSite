@@ -1,0 +1,26 @@
+﻿.field-validation-error {color: red;}
+.field-validation-input {display: none;}
+.input-validation-error {border: 3px solid red; background-color: lightpink;}
+.validation-summary-errors {font-weight: bold; color: red;}
+.validation-summary-valid {display:none;}
+
+.jumbotron{
+    font-weight:bold;
+    color:white;
+    background-color:green;
+}
+
+.navbar {
+    margin-bottom:0;
+}
+
+h1{
+    text-align:center;
+    font-family:'Franklin Gothic Medium';
+}
+
+#mypicture {
+    height:375px;
+    width:375px;
+}
+

@@ -29,7 +29,7 @@ namespace AndrewBaldridge.Web.Controllers
             }
             else
             {
-                return View("Contact", contactPage);
+                return View();
             }
             
         }
