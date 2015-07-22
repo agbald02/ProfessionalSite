@@ -51,15 +51,33 @@
             </div>
         </div>
     </div>
-    @using (Html.BeginForm())
-    {
-        @Html.ValidationSummary()
-        <p>Your name: @Html.TextBoxFor(x => x.Name)</p>
-        <p>Your email: @Html.TextBoxFor(x => x.Email)</p>
-        <p>Your phone: @Html.TextBoxFor(x => x.Phone)</p>
-        <p>Message: @Html.TextAreaFor(x => x.Message)</p>
-        
-        <input type="submit" value="Send Message" />
-    }
+    <div class="container panel-warning">
+        <div class="panel-heading text-center"><h4>New Message</h4></div>
+        <div class="container">
+            @using (Html.BeginForm())
+            {
+                @Html.ValidationSummary()
+                <div class="form-group">
+                    <label>Your name:</label>
+                    @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
+                    <label>Your email:</label>
+                    @Html.TextBoxFor(x => x.Email, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
+                    <label>Your phone:</label>
+                    @Html.TextBoxFor(x => x.Phone, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
+                    <label>Message:</label>
+                    @Html.TextAreaFor(x => x.Message, new { @class = "form-control" })
+                </div>
+                <div class="text-center">
+                    <input type="submit" value="Send Message" />
+                </div>
+            }
+        </div>
+    </div>
 </body>
 </html>

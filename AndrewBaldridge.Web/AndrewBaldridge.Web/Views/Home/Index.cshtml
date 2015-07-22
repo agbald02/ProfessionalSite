@@ -13,6 +13,9 @@
     <link rel="stylesheet" type="text/css" href="~/Content/Styles.css" />
 
     <title>Andrew Baldridge</title>
+    <style>
+        .btn a {color: black; text-decoration-color: green; font-weight: bold; font-style: italic;}
+    </style>
 </head>
 <body>
 @*Configuring the navbar*@
@@ -87,7 +90,11 @@
             </div>
         </div>
         </div>
+    <div class="text-center">
+        <div class="btn btn-success">
         @Html.ActionLink("Contact Me", "Contact")
+        </div>
+    </div>
         <script src="@Url.Content("~/Scripts/jquery-2.1.4.js")"></script>
         <script src="@Url.Content("~/Scripts/bootstrap.js")"></script>
 </body>
