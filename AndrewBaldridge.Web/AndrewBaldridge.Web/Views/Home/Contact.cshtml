@@ -58,19 +58,19 @@
                 @Html.ValidationSummary()
                 <div class="form-group">
                     <label>Your name:</label>
-                    @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+                    @Html.TextBoxFor(x => x.Name, new { @placeholder= "Name", @class = "form-control" })
                 </div>
                 <div class="form-group">
-                    <label>Your email:</label>
-                    @Html.TextBoxFor(x => x.Email, new { @class = "form-control" })
+                    <label>Your Email:</label>
+                    @Html.TextBoxFor(x => x.Email, new { @placeholder = "Email Address", @class = "form-control" })
                 </div>
                 <div class="form-group">
-                    <label>Your phone:</label>
-                    @Html.TextBoxFor(x => x.Phone, new { @class = "form-control" })
+                    <label>Your Phone:</label>
+                    @Html.TextBoxFor(x => x.Phone, new { @placeholder = "(xxx)-xxx-xxxx", @class = "form-control" })
                 </div>
                 <div class="form-group">
                     <label>Message:</label>
-                    @Html.TextAreaFor(x => x.Message, new { @class = "form-control" })
+                    @Html.TextAreaFor(x => x.Message, new { @placeholder = "Please type your message.", @class = "form-control" })
                 </div>
                 <div class="text-center">
                     <input type="submit" value="Send Message" />

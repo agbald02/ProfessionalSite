@@ -14,7 +14,8 @@ namespace AndrewBaldridge.Web.Models
         [RegularExpression(".+\\@.+\\..+",
             ErrorMessage = "Please enter a valid email address")]
         public string Email { get; set; }
-        [Required(ErrorMessage = "Please enter your phone number")]
+        [Required(ErrorMessage = "Please enter a phone number")]
+        [RegularExpression(@"^[01]?[- .]?(\([2-9]\d{2}\)|[2-9]\d{2})[- .]?\d{3}[- .]?\d{4}$", ErrorMessage = "Please enter a valid phone number.")]
         public string Phone { get; set; }
         [Required(ErrorMessage = "Please enter a message")]
         public string Message { get; set; }
