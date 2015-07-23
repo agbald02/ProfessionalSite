@@ -1,5 +1,4 @@
-﻿using AndrewBaldridge.Web.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -14,24 +13,9 @@ namespace AndrewBaldridge.Web.Controllers
         {
             return View();
         }
-        [HttpGet]
-        public ViewResult Contact()
+        public ActionResult Contact()
         {
             return View();
-        }
-
-        [HttpPost]
-        public ViewResult Contact(ContactPage contactPage)
-        {
-            if (ModelState.IsValid)
-            {
-                return View("Index", contactPage);
-            }
-            else
-            {
-                return View();
-            }
-            
         }
     }
 }
