@@ -16,66 +16,55 @@
     <title>Contact Me</title>
 </head>
 <body>
-    @*Configuring the navbar*@
-    <div class="navbar navbar-inverse navbar-static-top">
-        <div class="container">
+@*Configuring the navbar*@
+<div class="navbar navbar-inverse navbar-static-top">
+    <div class="container">
 
-            <a href="@Url.Action("Index")" class="navbar-brand">Andrew Baldridge</a>
+        <a href="@Url.Action("Index")" class="navbar-brand">Andrew Baldridge</a>
 
-            <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
 
-            <div class="collapse navbar-collapse navHeaderCollapse">
+        <div class="collapse navbar-collapse navHeaderCollapse">
 
-                <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-right">
 
-                    <li><a href="@Url.Action("Index")">Home</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="https://www.linkedin.com/profile/view?id=178079960&trk=nav_responsive_tab_profile" target="_blank">LinkedIn</a></li>
-                            <li><a href="https://twitter.com/glen_baldfield" target="_blank">Twitter</a></li>
-                            <li><a href="https://www.facebook.com/andrew.g.baldridge" target="_blank">Facebook</a></li>
-                            <li><a href="https://www.youtube.com/channel/UCLVRJtokdLVvvOGLUVVJcjA" target="_blank">Youtube</a></li>
-                            <li><a href="https://instagram.com/glen_baldfield/" target="_blank">Instagram</a></li>
-                        </ul>
-
-                    </li>
-                    <li><a href="#">400 Error Test</a></li>
-                    <li><a href="#">500 Error Test</a></li>
-                    <li><a href="@Url.Action("Contact","Home")">Contact Me</a></li>
-                </ul>
-            </div>
+                <li><a href="@Url.Action("Index")">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://www.linkedin.com/profile/view?id=178079960&trk=nav_responsive_tab_profile" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://twitter.com/glen_baldfield" target="_blank">Twitter</a></li>
+                        <li><a href="https://www.facebook.com/andrew.g.baldridge" target="_blank">Facebook</a></li>
+                        <li><a href="https://www.youtube.com/channel/UCLVRJtokdLVvvOGLUVVJcjA" target="_blank">Youtube</a></li>
+                        <li><a href="https://instagram.com/glen_baldfield/" target="_blank">Instagram</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">400 Error Test</a></li>
+                <li><a href="#">500 Error Test</a></li>
+                <li><a href="@Url.Action("Contact","Home")">Contact Me</a></li>
+            </ul>
         </div>
     </div>
+</div>
     <div class="container panel-warning">
-        <div class="panel-heading text-center"><h4>New Message</h4></div>
-            @using (Html.BeginForm())
-            {
+        <div class="panel-heading text-center"><h4>Contact Me</h4></div>
+        <br />
+            <div class="text-center">
                 @Html.ValidationSummary()
                 <div class="form-group">
-                    <label>Your name:</label>
-                    @Html.TextBoxFor(x => x.Name, new { @placeholder= "Name", @class = "form-control" })
+                    <label>Andrew Baldridge</label>
                 </div>
                 <div class="form-group">
-                    <label>Your Email:</label>
-                    @Html.TextBoxFor(x => x.Email, new { @placeholder = "Email Address", @class = "form-control" })
+                    <label><a href="mailto:Andrew@andrewgbaldridge.com" target="_top">Andrew@andrewgbaldridge.com</a></label>
                 </div>
                 <div class="form-group">
-                    <label>Your Phone:</label>
-                    @Html.TextBoxFor(x => x.Phone, new { @placeholder = "(xxx)-xxx-xxxx", @class = "form-control" })
+                    <label>Phone: (859)-630-6669</label>
                 </div>
-                <div class="form-group">
-                    <label>Message:</label>
-                    @Html.TextAreaFor(x => x.Message, new { @placeholder = "Please type your message.", @class = "form-control" })
-                </div>
-                <div class="text-center">
-                    <input type="submit" value="Send Message" />
-                </div>
-            }
         </div>
+    </div>
 </body>
 </html>
