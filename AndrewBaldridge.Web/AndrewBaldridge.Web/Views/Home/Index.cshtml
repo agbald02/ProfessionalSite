@@ -14,12 +14,16 @@
     <link rel="stylesheet" type="text/css" href="~/Content/Styles.css" />
     
     <title>Andrew Baldridge</title>
+
     <style>
         .btn a {color: black; text-decoration-color: green; font-weight: bold; font-style: italic;}
     </style>
+
 </head>
 <body>
+
 @Html.Partial("_PageSkeleton")
+    
     <div class="unslider">
         <ul class="slides">
             <li class="slide1">
@@ -27,53 +31,59 @@
             <li class="slide3">
         </ul>
     </div>
-@*Jumbotron Stuff*@
-        <div class="jumbotron">
-            <h1 class="slideHeader">Developer, Entrepreneur, Beard Enthusiast</h1>
+
+    <div class="jumbotron">
+        <h1 class="slideHeader">Developer, Entrepreneur, Beard Enthusiast</h1>
             <br>
             <br>
             <p>
-                I am an I.T. Professional located in Louisville, Kentucky. Currently employed at ZirMed, I am an I.T. Intern within their Architecture
-                department specifically working on internal web apps that are created primarily for monitoring and optimization purposes. As an entreprenuer I
-                am involved in the entrepreneurial community as well as a startup in the hunting industry. As a sports fan and avid outdoorsman, you can usually
-                find me on a mountain bike trail on the weekends, playing hockey during the week, and as of recently in a tree stand on Saturday mornings
+                I am an I.T. Professional located in Louisville, Kentucky. Currently 
+                employed at ZirMed, I am an I.T. Intern within their Architecture
+                department specifically working on internal web apps that are created 
+                primarily for monitoring and optimization purposes. As an entreprenuer I
+                am involved in a startup in the hunting industry as well as the local 
+                entrepreneurial community. As a sports fan and avid outdoorsman, you can usually
+                find me on a mountain bike trail on the weekends, playing hockey during the week,
+                 and as of recently in a tree stand on Saturday mornings
                 looking for my friend Mr. Whitetail Deer.
             </p>
-        </div>
-@*Grid System and Contents*@
-        <div class="container">
+    </div>
+
+    <div class="container">
         <div class="row">
             <div class="col-md-4">
                 <img id ="mypicture" src="@Url.Content("~/Content/images/mypicture.jpg")" />
             </div>
+
             <div class="col-md-4">
                 <h2>What is Node.js?</h2>
                 <p>
-                    js is a server side scripting language from Javascript for use of application building.
-                    It is event driven and uses non-blocking in order to have the greatest optimization ability. It operates
-                    using Google’s V8, operates on a single thread, and uses event loops and package management.
+                    js is a server side scripting language from Javascript for use of application 
+                    building.It is event driven and uses non-blocking in order to have the greatest 
+                    optimization ability. It operates using Google’s V8, operates on a single 
+                    thread, and uses event loops and package management.
                 </p>
             </div>
+
             <div class="col-md-4">
                 <h2>
                     <a href="~/Content/PDFs/myresume.pdf" target="_blank" />
                     My resume
                 </h2>
             </div>
-        </div>
-        </div>
-    <div class="text-center">
-        <div class="btn btn-success">
-        @Html.ActionLink("Contact Me", "Contact")
+
         </div>
     </div>
+
         <script src="@Url.Content("~/Scripts/jquery-2.1.4.js")"></script>
         <script src="@Url.Content("~/Scripts/bootstrap.js")"></script>
         <script src="@Url.Content("~/Scripts/unslider.min.js.js")"></script>
+
         <script>
             $(function () {
             $(".unslider").unslider();
             });
         </script>
+
 </body>
 </html>
