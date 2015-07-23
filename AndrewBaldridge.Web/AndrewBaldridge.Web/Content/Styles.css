@@ -28,6 +28,23 @@
     background-size: 100% 100%;
 }
 
+.navcontainer ul {
+    padding-left:250px;
+    display: inline;
+}
+.navbar-brand{
+    padding-top:20px;
+}
+.buttons{
+    padding-top:6px;
+}
+
+.socialMediaButtons{
+    text-align:center;
+    padding:0px;
+    list-style:none;
+}
+
 .jumbotron {
     font-weight:bold;
     color:white;

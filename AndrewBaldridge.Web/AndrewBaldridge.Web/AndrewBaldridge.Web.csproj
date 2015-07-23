@@ -94,6 +94,10 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\images\Louisville.jpg" />
     <Content Include="Content\images\mypicture.jpg" />
+    <Content Include="Content\images\Social Media\facebook-32.png" />
+    <Content Include="Content\images\Social Media\instagram-32.png" />
+    <Content Include="Content\images\Social Media\twitter-32.png" />
+    <Content Include="Content\images\Social Media\youtube-32.png" />
     <Content Include="Content\images\techRed.jpg" />
     <Content Include="Content\images\Woods.jpg" />
     <Content Include="Content\Styles.css" />
@@ -130,7 +134,8 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\jquery-2.1.4.min.map" />
     <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Views\Shared\_PageSkeleton.cshtml" />
+    <Content Include="Views\Shared\_NavBarTop.cshtml" />
+    <Content Include="Views\Shared\_NavBarBottom.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -1,0 +1,57 @@
+﻿
+
+    <div class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+
+                <a href="@Url.Action("Index")" class="navbar-brand">Andrew Baldridge</a>
+
+                <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <div class="collapse navbar-collapse navHeaderCollapse">
+                    <div class="navcontainer">
+                    <ul class="nav navbar-nav">
+                        
+                        <li class="socialMediaButtons">
+                            <a href="http://twitter.com/SBNeverBeHeard" target="_blank">
+                                <img src="~/Content/images/Social Media/twitter-32.png">
+                            </a>
+                        </li>
+                        <li class="socialMediaButtons">
+                            <a href="https://www.facebook.com/pages/Sound-Barrier-Hunting/342603095941119?ref=bookmarks" target="_blank">
+                                <img src="~/Content/images/Social Media/facebook-32.png">
+                            </a>
+                        </li>
+                        <li class="socialMediaButtons">
+                            <a href="http://instagram.com/sbneverbeheard/" target="_blank">
+                                <img src="~/Content/images/Social Media/instagram-32.png">
+                            </a>
+                        </li>
+                        <li class="socialMediaButtons">
+                            <a href="https://www.youtube.com/" target="_blank">
+                                <img src="~/Content/images/Social Media/youtube-32.png">
+                            </a>
+                        </li>
+                        </ul>
+                        </div>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="buttons"><a href="@Url.Action("Index")">Home</a></li>
+                            @*<li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="https://www.linkedin.com/profile/view?id=178079960&trk=nav_responsive_tab_profile" target="_blank">LinkedIn</a></li>
+                                    <li><a href="https://twitter.com/glen_baldfield" target="_blank">Twitter</a></li>
+                                    <li><a href="https://www.facebook.com/andrew.g.baldridge" target="_blank">Facebook</a></li>
+                                    <li><a href="https://www.youtube.com/channel/UCLVRJtokdLVvvOGLUVVJcjA" target="_blank">Youtube</a></li>
+                                    <li><a href="https://instagram.com/glen_baldfield/" target="_blank">Instagram</a></li>
+                                </ul>
+                            </li>*@
+                            <li class ="buttons"><a href="~/Content/PDFs/myresume.pdf" target="_blank">Resume</a></li>
+                            <li class="buttons"><a href="@Url.Action("Contact","Home")">Contact Me</a></li>
+                        </ul>
+                    </div>
+        </div>
+    </div>
