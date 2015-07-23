@@ -1,13 +1,45 @@
-﻿.field-validation-error {color: red;}
-.field-validation-input {display: none;}
-.input-validation-error {border: 3px solid red; background-color: lightpink;}
-.validation-summary-errors {font-weight: bold; color: red;}
-.validation-summary-valid {display:none;}
+﻿.unslider { position: relative; overflow:hidden; width:auto;}
+.unslider li { list-style: none;}
+.unslider ul li {float: right;}
 
-.jumbotron{
+.slides{
+    width:25%;
+    padding:0;
+    margin:0;
+}
+.slide1{
+    width: 25%; 
+    height:425px;
+    background-image: url(../Content/images/Louisville.jpg);
+    background-size: 100% 100%;
+}
+.slide2{
+    width: 25%; 
+    height:425px; 
+    background-image: url(../Content/images/Woods.jpg);
+    background-size: 100% 100%;
+}
+
+.slide3{
+    width: 25%;
+    height:425px;  
+    background-image: url(../Content/images/techRed.jpg);
+    background-size: 100% 100%;
+}
+
+.jumbotron {
     font-weight:bold;
     color:white;
-    background-color:green;
+    background-color:lightslategrey;
+    padding-bottom:10px;
+    padding-top:10px;
+}
+
+p {
+    color:black;
+    padding-left:45px;
+    padding-right:45px;
+    padding-top:0px;
 }
 
 .navbar {
