@@ -94,11 +94,11 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\images\Louisville.jpg" />
     <Content Include="Content\images\mypicture.jpg" />
-    <Content Include="Content\images\Social Media\facebook-32.png" />
-    <Content Include="Content\images\Social Media\instagram-32.png" />
-    <Content Include="Content\images\Social Media\linkedin-32.png" />
-    <Content Include="Content\images\Social Media\twitter-32.png" />
-    <Content Include="Content\images\Social Media\youtube-32.png" />
+    <Content Include="Content\images\Social Media\facebook.png" />
+    <Content Include="Content\images\Social Media\instagram.png" />
+    <Content Include="Content\images\Social Media\linkedin.png" />
+    <Content Include="Content\images\Social Media\twitter.png" />
+    <Content Include="Content\images\Social Media\youtube.png" />
     <Content Include="Content\images\techRed.jpg" />
     <Content Include="Content\images\Woods.jpg" />
     <Content Include="Content\Styles.css" />
