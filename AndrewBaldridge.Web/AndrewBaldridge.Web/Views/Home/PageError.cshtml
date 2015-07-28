@@ -1,0 +1,28 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="~/Content/Styles.css" />
+    <title>Whoops!</title>
+</head>
+<body id="errorBody">
+    <div class="errorPage">
+        <h1 class="text-center" id="errorHeader">Well this isn't good...</h1>
+            <div class="whoops"> 
+                My deepest apologies, it seems this page doesn't exist!
+                <br />
+                <br />
+                404 - Page not found
+                <br />
+                <br />
+                Back to <a class="link" href="@Url.Action("Index")">andrewgbaldridge.com</a>
+            </div>
+    </div>
+</body>
+</html>

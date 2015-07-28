@@ -137,6 +137,7 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Shared\_NavBarTop.cshtml" />
     <Content Include="Views\Shared\_NavBarBottom.cshtml" />
+    <Content Include="Views\Home\PageError.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -95,3 +95,32 @@ h1{
     color:gray;
 }
 
+.whoops {
+    font-size:30px;
+    text-align:center;
+    color:white;
+    padding-top:50px;
+    font-weight:bold;
+    
+}
+#errorBody{
+    background-color:black;
+    height:auto;
+    width:auto;
+    margin:0;
+    padding:0;
+}
+#errorHeader {
+    padding-top:250px;
+    color:white;
+    font-size:50px;
+    text-decoration:underline;
+    font-family:Tahoma;
+}
+
+.link{
+    color:red;
+}
+
+
+

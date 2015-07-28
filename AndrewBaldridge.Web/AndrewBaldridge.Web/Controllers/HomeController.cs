@@ -17,5 +17,9 @@ namespace AndrewBaldridge.Web.Controllers
         {
             return View();
         }
+        public ActionResult PageError()
+        {
+            return View();
+        }
     }
 }
