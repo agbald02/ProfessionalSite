@@ -1,5 +1,4 @@
-﻿
-.unslider { position: relative; overflow:hidden; width:auto;}
+﻿.unslider { position: relative; overflow:hidden; width:auto;}
 .unslider li { list-style: none;}
 .unslider ul li {float: right;}
 
@@ -8,12 +7,14 @@
     padding:0;
     margin:0;
 }
+
 .slide1{
     width: 25%; 
     height:425px;
     background-image: url(../Content/images/Louisville.jpg);
     background-size: 100% 100%;
 }
+
 .slide2{
     width: 25%; 
     height:425px; 
@@ -32,9 +33,11 @@
     padding-left:250px;
     display: inline;
 }
+
 .navbar-brand{
     padding-top:20px;
 }
+
 .buttons{
     padding-top:6px;
 }
@@ -52,10 +55,12 @@
     padding-bottom:10px;
     padding-top:10px;
 }
+
 .info{
     font-size:20px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 p {
     color:black;
     padding-left:45px;
@@ -96,15 +101,18 @@ h1{
     font-style:italic;
     text-decoration:underline;
 }
+
 .form-group{
     font-size:18px;
 }
+
 .navbar{
     position:fixed;
     width:100%;
     height:60px;
     background:black;
 }
+
 .navbar-text{
     padding-left:270px;
     color:gray;
@@ -118,6 +126,7 @@ h1{
     font-weight:bold;
     
 }
+
 #errorBody{
     background-color:black;
     height:auto;
@@ -125,6 +134,7 @@ h1{
     margin:0;
     padding:0;
 }
+
 #errorHeader {
     padding-top:250px;
     color:white;
