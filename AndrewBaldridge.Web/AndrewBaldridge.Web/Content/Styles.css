@@ -84,8 +84,23 @@ h1{
     height:60px;
     background-color:black;
 }
+
+.contactInfo{
+    text-align:center;
+    padding-top:100px;
+}
+
+.contactHeader{
+    font-size:25px;
+    font-weight:bold;
+    font-style:italic;
+    text-decoration:underline;
+}
+.form-group{
+    font-size:18px;
+}
 .navbar{
-    position:static;
+    position:fixed;
     width:100%;
     height:60px;
     background:black;

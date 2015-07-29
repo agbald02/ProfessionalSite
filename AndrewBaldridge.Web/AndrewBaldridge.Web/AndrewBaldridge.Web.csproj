@@ -141,7 +141,7 @@
     <Content Include="Views\Home\NoPageError.cshtml" />
     <Content Include="Views\Home\PageErrorOnly.cshtml" />
     <Content Include="Views\Shared\Errors\_StackTrace.cshtml" />
-    <Content Include="Views\Shared\Layouts\Main.cshtml" />
+    <Content Include="Views\Shared\Layouts\_Main.cshtml" />
     <Content Include="Views\Shared\Layouts\_GoogleAnalytics.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

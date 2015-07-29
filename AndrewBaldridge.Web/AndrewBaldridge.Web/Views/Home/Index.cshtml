@@ -1,6 +1,6 @@
 ﻿
 @{
-    Layout = null;
+    Layout = "~/Views/Shared/Layouts/_Main.cshtml";
 }
 
 <!DOCTYPE html>
@@ -15,14 +15,8 @@
     
     <title>Andrew Baldridge</title>
 
-    <style>
-        .btn a {color: black; text-decoration-color: green; font-weight: bold; font-style: italic;}
-    </style>
-
 </head>
 <body>
-
-@Html.Partial("_NavBarTop")
     
     <div class="unslider">
         <ul class="slides">
@@ -48,7 +42,7 @@
                     <br />
                     I am an I.T. Professional located in Louisville, Kentucky. Currently
                     employed at ZirMed, I am an I.T. Intern within their Architecture
-                    department specifically working on internal web apps that are created
+                    Group specifically working on internal web apps that are created
                     primarily for monitoring and optimization purposes.
                 </p>
             </div>
@@ -77,6 +71,5 @@
             $(".unslider").unslider();
             });
         </script>
-@Html.Partial("_NavBarBottom")
 </body>
 </html>
