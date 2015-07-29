@@ -138,9 +138,11 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Shared\_NavBarTop.cshtml" />
     <Content Include="Views\Shared\_NavBarBottom.cshtml" />
-    <Content Include="Views\Shared\NoPageError.cshtml" />
-    <Content Include="Views\Shared\PageErrorOnly.cshtml" />
-    <Content Include="Views\Shared\_StackTrace.cshtml" />
+    <Content Include="Views\Home\NoPageError.cshtml" />
+    <Content Include="Views\Home\PageErrorOnly.cshtml" />
+    <Content Include="Views\Shared\Errors\_StackTrace.cshtml" />
+    <Content Include="Views\Shared\Layouts\Main.cshtml" />
+    <Content Include="Views\Shared\Layouts\_GoogleAnalytics.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

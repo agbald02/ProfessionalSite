@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+
+    <meta name="viewport" content="width=device-width" />
+    @*Favicon <link rel="shortcut icon" href="@Url.Content("~/favicon.ico")" />*@
+
+
+</head>
+<body>
+    @Html.Partial("~/Views/Shared/_NavBarTop")
+    <div>
+        @RenderBody()
+    </div>
+    @Html.Partial("NavBarBottom")
+</body>
+</html>
