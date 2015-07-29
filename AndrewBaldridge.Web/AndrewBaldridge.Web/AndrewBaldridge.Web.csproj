@@ -120,6 +120,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
@@ -137,7 +138,9 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Shared\_NavBarTop.cshtml" />
     <Content Include="Views\Shared\_NavBarBottom.cshtml" />
-    <Content Include="Views\Home\PageError.cshtml" />
+    <Content Include="Views\Shared\NoPageError.cshtml" />
+    <Content Include="Views\Shared\PageErrorOnly.cshtml" />
+    <Content Include="Views\Shared\_StackTrace.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

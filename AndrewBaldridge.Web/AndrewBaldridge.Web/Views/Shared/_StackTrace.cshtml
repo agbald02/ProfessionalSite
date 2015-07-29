@@ -1,0 +1,8 @@
+﻿@model Exception
+Message: @Model.Message
+@Model.StackTrace
+@if (Model.InnerException != null)
+{
+    @:--- Inner Exception ---
+    @Html.Partial("_StackTrace", Model.InnerException)
+}

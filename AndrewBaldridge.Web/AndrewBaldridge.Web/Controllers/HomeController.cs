@@ -7,6 +7,7 @@ using System.Web.Mvc;
 
 namespace AndrewBaldridge.Web.Controllers
 {
+    [HandleError]
     public class HomeController : Controller
     {
         public ActionResult Index()
@@ -17,9 +18,26 @@ namespace AndrewBaldridge.Web.Controllers
         {
             return View();
         }
-        public ActionResult PageError()
+        public ActionResult NoPageError()
         {
             return View();
+        }
+
+        public ActionResult PageErrorOnly()
+        {
+            return View();
+        }
+
+        public ActionResult TestException()
+        {
+            try
+            {
+                throw new Exception("Behold! A groovy inner exception.");
+            }
+            catch (Exception e)
+            {
+                throw new Exception("Look, I caught and wrapped an exception!", e);
+            }
         }
     }
 }
