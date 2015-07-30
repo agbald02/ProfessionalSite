@@ -158,7 +158,7 @@
     <Content Include="Views\Home\PageErrorOnly.cshtml" />
     <Content Include="Views\Shared\Errors\_StackTrace.cshtml" />
     <Content Include="Views\Shared\Layouts\_Main.cshtml" />
-    <Content Include="Views\Shared\Layouts\_GoogleAnalytics.cshtml" />
+    <Content Include="Views\Shared\_GoogleAnalytics.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

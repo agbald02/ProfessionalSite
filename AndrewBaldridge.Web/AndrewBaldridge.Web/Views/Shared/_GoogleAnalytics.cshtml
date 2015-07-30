@@ -1,6 +1,6 @@
 ﻿@using System.Configuration
 @{
-    var enable = bool.Parse(ConfigurationManager.AppSettings["EnableGoogleAnalytics"]);
+    bool enable = bool.Parse(ConfigurationManager.AppSettings["EnableGoogleAnalytics"]);
 }
 
 @if (enable)
