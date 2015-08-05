@@ -14,9 +14,13 @@ namespace AndrewBaldridge.Web.Controllers
         {
             return View();
         }
+
+        [Route("ContactMe")]
         public ActionResult Contact()
         {
-            return View();
+            ViewBag.Controller = "Home";
+            ViewBag.Action = "Contact";
+            return View("Contact");
         }
         public ActionResult NoPageError()
         {
@@ -39,5 +43,7 @@ namespace AndrewBaldridge.Web.Controllers
                 throw new Exception("Look, I caught and wrapped an exception!", e);
             }
         }
+
+        
     }
 }
