@@ -1,4 +1,4 @@
-﻿.unslider { position: relative; overflow:hidden; width:auto;}
+﻿.unslider { position: relative; overflow:hidden; width:100%;}
 .unslider li { list-style: none;}
 .unslider ul li {float: right;}
 
