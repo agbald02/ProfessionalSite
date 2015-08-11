@@ -113,6 +113,10 @@ h1{
     background:black;
 }
 
+.navcontainer{
+        display: inline;
+}
+
 .navbar-text{
     padding-left:270px;
     color:gray;
@@ -146,6 +150,8 @@ h1{
 .link{
     color:red;
 }
+
+
 
 
 
