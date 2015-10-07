@@ -116,6 +116,7 @@
     <Content Include="Content\images\Social Media\youtube.png" />
     <Content Include="Content\images\techRed.jpg" />
     <Content Include="Content\images\Woods.jpg" />
+    <Content Include="Content\NavCSS.css" />
     <Content Include="Content\Styles.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
