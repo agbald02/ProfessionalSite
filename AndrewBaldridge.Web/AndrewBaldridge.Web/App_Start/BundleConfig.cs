@@ -32,7 +32,7 @@ namespace AndrewBaldridge.Web.App_Start
             );
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrapjs",
-                "//maxcdn.bootstrapcdn.comm/bootstrap/3.3.1/js/bootstrap.min/js")
+                "//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js")
                 .Include("~/Scripts/bootstrap.js")
                 );
 
