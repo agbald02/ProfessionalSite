@@ -1,0 +1,18 @@
+﻿<div class="navbar navbar-fixed-bottom" id="nav">
+    <div class="container">
+        <a href="@Url.Action("Index")" class="navbar-brand" id="navbarName">Andrew Baldridge</a>
+        <ul class="nav navbar-nav navbar-right">
+            <li id="buttons"><a href="@Url.Action("Index")">Home</a></li>
+            <li id="buttons"><a href="https://github.com/agbald02" target="_blank">GitHub</a></li>
+            <li id="buttons"><a href="~/Content/PDFs/ABaldridgeResume.pdf" target="_blank">Resume</a></li>
+            <li id="buttons"><a href="@Url.Action("Contact","Home")">Contact Me</a></li>
+            <li id="buttonsRight"><a href="#openModal" data-toggle="modal">Social Media</a></li>
+        </ul>                                            
+    </div>
+</div>
+
+<script>
+    $('#buttonsRight').click(function () {
+       modal('show');
+    });
+</script>

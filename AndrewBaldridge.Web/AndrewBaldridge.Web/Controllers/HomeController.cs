@@ -22,6 +22,11 @@ namespace AndrewBaldridge.Web.Controllers
             ViewBag.Action = "Contact";
             return View("Contact");
         }
+
+        public ActionResult About()
+        {
+            return View();
+        }
         public ActionResult NoPageError()
         {
             return View();

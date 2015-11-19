@@ -107,15 +107,15 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\images\Louisville.jpg" />
-    <Content Include="Content\images\Social Media\facebook.png" />
-    <Content Include="Content\images\Social Media\instagram.png" />
-    <Content Include="Content\images\Social Media\linkedin.png" />
-    <Content Include="Content\images\ProfessionalPicture.jpg" />
-    <Content Include="Content\images\Social Media\twitter.png" />
-    <Content Include="Content\images\Social Media\youtube.png" />
-    <Content Include="Content\images\techRed.jpg" />
-    <Content Include="Content\images\Woods.jpg" />
+    <Content Include="Content\images\AndrewBaldridgeLogo.png" />
+    <Content Include="Content\images\AnselAdamsWilderness.jpg" />
+    <Content Include="Content\images\PockParkPhoto.jpg" />
+    <Content Include="Content\images\ProfPhoto.jpg" />
+    <Content Include="Content\images\Social Media\FacebookBrandLogo.png" />
+    <Content Include="Content\images\Social Media\InstagramBrandLogoColor.png" />
+    <Content Include="Content\images\Social Media\LinkedInBrandLogo.png" />
+    <Content Include="Content\images\Social Media\TwitterBrandLogo.png" />
+    <Content Include="Content\images\Social Media\YoutubeBrandLogo48.png" />
     <Content Include="Content\NavCSS.css" />
     <Content Include="Content\Styles.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -126,14 +126,17 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.css.map" />
-    <Content Include="Content\PDFs\AndrewBaldridgeResume.pdf" />
+    <Content Include="Content\Fonts\MonsterUnleashed.ttf" />
+    <Content Include="Content\PDFs\ABaldridgeResume.pdf" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-2.1.4.js" />
     <Content Include="Scripts\jquery-2.1.4.min.js" />
-    <Content Include="Scripts\unslider.min.js.js" />
-    <Content Include="Web.config" />
+    <Content Include="Scripts\jquery-ui.min.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -153,13 +156,15 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\jquery-2.1.4.min.map" />
     <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Views\Shared\_NavBarTop.cshtml" />
-    <Content Include="Views\Shared\_NavBarBottom.cshtml" />
+    <Content Include="Views\Shared\_NavBar.cshtml" />
+    <Content Include="Views\Shared\_SideBarButtons.cshtml" />
     <Content Include="Views\Home\NoPageError.cshtml" />
     <Content Include="Views\Home\PageErrorOnly.cshtml" />
     <Content Include="Views\Shared\Errors\_StackTrace.cshtml" />
     <Content Include="Views\Shared\Layouts\_Main.cshtml" />
     <Content Include="Views\Shared\_GoogleAnalytics.cshtml" />
+    <Content Include="Views\Shared\_Modal.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -1,78 +1,66 @@
-﻿.unslider { position: relative; overflow:hidden; width:100%; background-size: 100% 100%;}
-.unslider li { list-style: none;}
-.unslider ul li {float: right;}
+﻿@font-face{
+    font-family:MonsterUnleashed;
+    src:url('../Content/Fonts/MonsterUnleashed.ttf');
+}
 
-.slides{
-    width:25%;
+#Welcome{
+    margin-top:0;
+    text-align:center;
+    color:white;
+    font-family:MonsterUnleashed;
+    font-size:20px
+}
+#Welcome > a{
+    color:black;
+    background:lightgray;
+    font-family:'Courier New';
+    border:2px solid white;
+    border-radius:10px;
+    padding:10px;
+}
+
+#Welcome >a:hover{
+    color:black;
+    background:limegreen;
+    font-family:'Courier New';
+    border:2px solid white;
+    border-radius:10px;
+    padding:10px;
+    font-weight:bold;
+}
+
+#panelHeader{
+    font-size:40px;
+    text-align:center;
+    font-family:'Browallia New';
+    font-weight:bold;
     padding:0;
     margin:0;
 }
 
-.slide1{
-    width: 25%; 
-    height:425px;
-    background-image: url(../Content/images/Louisville.jpg);
-    background-size: 100% 100%;
+#logo{
+    height:150px;
+    width:150px;
 }
 
-.slide2{
-    width: 25%; 
-    height:425px; 
-    background-image: url(../Content/images/Woods.jpg);
-    background-size: 100% 100%;
+#myPicture{
+    height:300px;
+    width:300px;
 }
 
-.slide3{
-    width: 25%;
-    height:425px;  
-    background-image: url(../Content/images/techRed.jpg);
-    background-size: 100% 100%;
+#InfoContainer{
+    width:800px;
 }
 
-.buttons{
-    padding-top:6px;
-    text-align:center;
-    background-color:black;
-}
-
-.socialMediaButtons{
-    text-align:center;
-    padding:0px;
-    list-style:none;
-}
-.container1 {
-    width:100%;
-}
-.jumbotron {
-    font-weight:bold;
-    color:white;
-    background-color:lightslategrey;
-    padding-bottom:10px;
-    padding-top:10px;
-    width:100%;
-}
-
-.info{
+#info{
+    margin-top:20px;
+    text-indent:50px;
+    color:black;
     font-size:20px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-p {
-    color:black;
-    padding-left:45px;
-    padding-right:45px;
-    padding-top:0px;
-}
-
-h1{
-    text-align:center;
-    font-family:'Franklin Gothic Medium';
-}
-
-#mypicture {
-    height:350px;
-    width:350px;
-}
+/*Contact*/
 
 .contactInfo{
     text-align:center;
@@ -90,6 +78,21 @@ h1{
     font-size:18px;
 }
 
+.row-no-padding{
+    padding:0;
+    margin-left:0;
+    margin-right:0;
+}
+#photo{
+    margin:0;
+    padding:0;
+    width:400px;
+    height:400px;
+    margin-left:340px;
+    border:2px solid black;
+}
+
+/*Error handling*/
 .whoops {
     font-size:30px;
     text-align:center;

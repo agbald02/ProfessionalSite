@@ -1,70 +1,17 @@
-﻿
-@{
-    Layout = "~/Views/Shared/Layouts/_Main.cshtml";
-}
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
     <meta name="google-site-verification" content="JcsmmQzzAPbXSN-O_hg-rqC83ptdMK-yCg2GHK7G8HM" />
-    
+    <link rel="stylesheet" type="text/css" href="~/Content/Styles.css">
     <title>Andrew Baldridge</title>
 
 </head>
-<body>
-    <div class="container1">
-        <div class="unslider">
-            <ul class="slides">
-                <li class="slide1">
-                <li class="slide2">
-                <li class="slide3">
-            </ul>
-        </div>
-
-        <div class="jumbotron">
-            <h1 class="slideHeader">Developer, Entrepreneur, Beard Enthusiast</h1>
-        </div>
+<body style="background-image:url(/Content/images/AnselAdamsWilderness.jpg)">
+    <div id="Welcome">
+            <h1>Andrew Baldridge</h1>
+            <a class="btn btn-primary" href="@Url.Action("About","Home")">Learn about me</a>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <img id ="mypicture" src="@Url.Content("~/Content/images/ProfessionalPicture.jpg")" />
-            </div>
-
-            <div class="col-md-4">
-                <p class="info">
-                    <br />
-                    <br />
-                    I am an I.T. Professional located in Louisville, Kentucky. Currently
-                    employed at ZirMed, I am an I.T. Intern within their Architecture
-                    Group specifically working on internal web apps that are created
-                    primarily for monitoring and optimization purposes.
-                </p>
-            </div>
-            <div class="col-md-4">
-                <p class="info"> 
-                    As an entreprenuer I am involved in a startup in the hunting industry as 
-                    well as the local entrepreneurial community. 
-                    <br />
-                    <br />
-                    A sports fan and avid 
-                    outdoorsman, you can usually find me on a mountain bike trail on the
-                    weekends, playing hockey during the week, and as of recently in a 
-                    tree stand on Saturday mornings looking for my friend Mr. Whitetail Deer.
-                    <br />
-                </p>
-            </div>
-        </div>
-    </div>
-
-        @Scripts.Render("~/bundles/commonjavascript")
-
-        <script>
-            $(function () {
-            $(".unslider").unslider();
-            });
-        </script>
 </body>
 </html>
