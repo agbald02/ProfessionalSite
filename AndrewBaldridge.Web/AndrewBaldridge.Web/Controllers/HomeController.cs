@@ -23,10 +23,6 @@ namespace AndrewBaldridge.Web.Controllers
             return View("Contact");
         }
 
-        public ActionResult About()
-        {
-            return View();
-        }
         public ActionResult NoPageError()
         {
             return View();

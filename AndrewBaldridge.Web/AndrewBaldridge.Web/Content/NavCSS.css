@@ -25,6 +25,7 @@
 
 #buttons > a{
     border-left:1px dashed white;
+    border-right:1px dashed white;
     color:white;
     margin-top:60px;
     margin-bottom:40px;
@@ -43,14 +44,9 @@
 
 #buttons:hover >a{
     color:black;
-    background-color:white;
-    border-radius:10px;
-}
-
-#buttonsRight:hover >a{
-    color:black;
-    background-color:white;
-    border-radius:10px;
+    background-color:#0ae39b;
+    border-right:1px dashed white;
+    border-left:1px dashed white;
 }
 
 .modal-title{

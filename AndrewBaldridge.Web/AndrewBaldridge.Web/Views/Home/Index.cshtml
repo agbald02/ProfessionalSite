@@ -1,17 +1,50 @@
-﻿<!DOCTYPE html>
+﻿@{
+    Layout = "~/Views/Shared/Layouts/_Main.cshtml";
+}
+
+<!DOCTYPE html>
 
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
     <meta name="google-site-verification" content="JcsmmQzzAPbXSN-O_hg-rqC83ptdMK-yCg2GHK7G8HM" />
-    <link rel="stylesheet" type="text/css" href="~/Content/Styles.css">
     <title>Andrew Baldridge</title>
 
 </head>
 <body style="background-image:url(/Content/images/AnselAdamsWilderness.jpg)">
-    <div id="Welcome">
-            <h1>Andrew Baldridge</h1>
-            <a class="btn btn-primary" href="@Url.Action("About","Home")">Learn about me</a>
+    <div class="panel" id="headerPanel">
+        <div class="text-center">
+            <img src="~/Content/images/AndrewBaldridgeLogo.png" id="logo" />
+            <h1 id="panelHeader">Developer, Entrepreneur, Beard Enthusiast</h1>
+        </div>
     </div>
+    <div class="container">
+        <div class="row">
+            <div class="container" id="InfoContainer">
+                <div class="panel" id="homePanel">
+                    <div class="text-center">
+                        <img id="myPicture" src="@Url.Content("~/Content/images/ProfPhoto.jpg")" />
+                    </div>
+                    <p id="info">
+                        I am an I.T. Professional located in Louisville, Kentucky. Currently
+                        employed at ZirMed, I am an I.T. Intern within their Architecture
+                        Group specifically working on internal web apps that are created
+                        primarily for monitoring and optimization purposes. As an entreprenuer
+                        I am involved in a
+                        <a id="startupLink" href="http://devsoundbarrierhunting.azurewebsites.net/" target="_blank">startup</a>
+                        in the hunting industry as well as the
+                        local entrepreneurial community.
+                    </p>
+                    <p id="info">
+                        A sports fan and avid
+                        outdoorsman, you can usually find me on a mountain bike trail on the
+                        weekends, playing hockey during the week, and as of recently in a
+                        tree stand on weekend mornings and evenings looking for my friend Mr. Whitetail Deer.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
