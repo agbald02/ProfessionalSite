@@ -34,7 +34,7 @@
 }
 
 #panelHeader{
-    color:white;
+    color:#0ae39b;
     font-size:40px;
     text-align:center;
     font-family:'Browallia New';
@@ -79,12 +79,19 @@
 
 /*Contact*/
 
+#ContactPanel{
+    margin-top:100px;
+    background-color:rgba(0,0,0,0.6);
+    padding:10px;
+    border-radius:15px;
+}
+
 .contactInfo{
     text-align:center;
-    padding-top:100px;
 }
 
 .contactHeader{
+    color:white;
     font-size:25px;
     font-weight:bold;
     font-style:italic;
@@ -93,6 +100,11 @@
 
 .form-group{
     font-size:18px;
+    color:white;
+}
+
+#MailTo{
+    color:#0ae39b;
 }
 
 .row-no-padding{
@@ -100,11 +112,20 @@
     margin-left:0;
     margin-right:0;
 }
-#photo{
+#PocketParkPhoto{
     margin:0;
     padding:0;
     width:400px;
     height:400px;
+    margin-left:340px;
+    border:2px solid black;
+}
+
+#DerbyPhoto{
+    margin:0;
+    padding:0;
+    width:400px;
+    height:600px;
     margin-left:340px;
     border:2px solid black;
 }
