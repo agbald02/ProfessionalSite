@@ -1,0 +1,50 @@
+﻿@{
+    Layout = "~/Views/Shared/Layouts/_Main.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta name="google-site-verification" content="JcsmmQzzAPbXSN-O_hg-rqC83ptdMK-yCg2GHK7G8HM" />
+    <title>Portfolio</title>
+
+</head>
+<body>
+    <div class="panel" id="headerPanel">
+        <div class="text-center">
+            <img src="~/Content/images/AndrewBaldridgeLogo.png" id="logo" />
+            <h1 id="panelHeader">Analysis</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="container" id="InfoContainer">
+                <div class="panel" id="homePanel">
+                    <h1 id="PortfolioHeader">Classwork Examples</h1>
+                    <p id="info">
+                        Below are examples of the database work that I did while at the University of Louisville. 
+                        You will need Visio 2013 and Microsoft Word to view these files after downloading
+                        them.
+                    </p>
+                    <p id="infoPortfolio">Database Examples</p>
+                    <ul id="PortfolioCategories">
+                        <li><a href="~/Content/PortfolioDocs/Database/A3.docx" download>Assignment 3 Queries</a></li>
+                        <li><a href="~/Content/PortfolioDocs/Database/A3.vsdx" download>Assignment 3 Visio Document</a></li>
+                        <li><a href="~/Content/PortfolioDocs/Database/A4.docx" download>Assignment 4 Queries</a></li>
+                        <li><a href="~/Content/PortfolioDocs/Database/A4.vsdx" download>Assignment 4 Visio Document</a></li>
+                        <li><a href="~/Content/PortfolioDocs/Database/A5.vsdx" download>Assignment 5 Visio Document</a></li>
+                        <li><a href="~/Content/PortfolioDocs/Database/A7.docx" download>Assignment 7 Queries</a></li>
+                        <li><a href="~/Content/PortfolioDocs/Database/A9.docx" download>Assignment 9 Queries</a></li>
+                    </ul>
+                    <div class="text-center">
+                        <a href="@Url.Action("Portfolio", "Home")">Back to Portfolio Sections</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -23,6 +23,31 @@ namespace AndrewBaldridge.Web.Controllers
             return View("Contact");
         }
 
+        public ActionResult Portfolio()
+        {
+            return View();
+        }
+
+        public ActionResult Development()
+        {
+            return View();
+        }
+
+        public ActionResult Database()
+        {
+            return View();
+        }
+
+        public ActionResult Analysis()
+        {
+            return View();
+        }
+
+        public ActionResult References()
+        {
+            return View();
+        }
+
         public ActionResult NoPageError()
         {
             return View();

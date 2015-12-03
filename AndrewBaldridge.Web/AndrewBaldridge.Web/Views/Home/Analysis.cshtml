@@ -1,0 +1,51 @@
+﻿@{
+    Layout = "~/Views/Shared/Layouts/_Main.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta name="google-site-verification" content="JcsmmQzzAPbXSN-O_hg-rqC83ptdMK-yCg2GHK7G8HM" />
+    <title>Portfolio</title>
+
+</head>
+<body>
+    <div class="panel" id="headerPanel">
+        <div class="text-center">
+            <img src="~/Content/images/AndrewBaldridgeLogo.png" id="logo" />
+            <h1 id="panelHeader">Analysis</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="container" id="InfoContainer">
+                <div class="panel" id="homePanel">
+                    <h1 id="PortfolioHeader">Analysis Examples</h1>
+                    <p id="info">
+                        Below are examples of the analysis work that I did while at the University of Louisville. Much of this analysis
+                        came took place in a class in which we helped Baptist Health with the challenges that they were facing in their 
+                        Supply Chain Management. At the time, they saw a reverse auction system as the answer to their problems, so the 
+                        files below are the documents and associated files for the planning of that system. The final version of this 
+                        system can be found in the development section of my portfolio.
+                    </p>
+                    <ul id="PortfolioCategories">
+                        <li><a href="~/Content/PortfolioDocs/Analysis/Inception Spec.zip" download>Inception Specifications</a></li>
+                        <li><a href="~/Content/PortfolioDocs/Analysis/Inception Phase (Standardized).zip" download>Inception Phase - Standardized</a></li>
+                        <li><a href="~/Content/PortfolioDocs/Analysis/Elaboration Spec.zip" download>Elaboration Specifications</a></li>
+                        <li><a href="~/Content/PortfolioDocs/Analysis/Iteration1.zip" download>Iteration 1</a></li>
+                        <li><a href="~/Content/PortfolioDocs/Analysis/Iteration2.zip" download>Iteration 2</a></li>
+                        <li><a href="~/Content/PortfolioDocs/Analysis/Iteration3.zip" download>Iteration 3</a></li>
+                        <li><a href="~/Content/PortfolioDocs/Analysis/Iteration5.zip" download>Iteration 5</a></li>
+                    </ul>
+                    <div class="text-center">
+                        <a href="@Url.Action("Portfolio", "Home")">Back to Portfolio Sections</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

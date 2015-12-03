@@ -129,6 +129,26 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\Fonts\MonsterUnleashed.ttf" />
     <Content Include="Content\PDFs\ABaldridgeResume.pdf" />
+    <Content Include="Content\PortfolioDocs\Programming\Lab1.zip" />
+    <Content Include="Content\PortfolioDocs\Programming\Prog1.zip" />
+    <Content Include="Content\PortfolioDocs\Programming\Prog2.zip" />
+    <Content Include="Content\PortfolioDocs\Programming\Prog3.zip" />
+    <Content Include="Content\PortfolioDocs\Programming\Prog4.zip" />
+    <Content Include="Content\PortfolioDocs\Database\A3.docx" />
+    <Content Include="Content\PortfolioDocs\Database\A3.vsdx" />
+    <Content Include="Content\PortfolioDocs\Database\A4.docx" />
+    <Content Include="Content\PortfolioDocs\Database\A4.vsdx" />
+    <Content Include="Content\PortfolioDocs\Database\A5.vsdx" />
+    <Content Include="Content\PortfolioDocs\Database\A7.docx" />
+    <Content Include="Content\PortfolioDocs\Database\A9.docx" />
+    <Content Include="Content\PortfolioDocs\Analysis\Elaboration Spec.zip" />
+    <Content Include="Content\PortfolioDocs\Analysis\Inception Phase %28Standardized%29.zip" />
+    <Content Include="Content\PortfolioDocs\Analysis\Inception Spec.zip" />
+    <Content Include="Content\PortfolioDocs\Analysis\Iteration1.zip" />
+    <Content Include="Content\PortfolioDocs\Analysis\Iteration2.zip" />
+    <Content Include="Content\PortfolioDocs\Analysis\Iteration3.zip" />
+    <Content Include="Content\PortfolioDocs\Analysis\Iteration5.zip" />
+    <Content Include="Content\PortfolioDocs\Programming\BHSCMFinalVersion.zip" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -165,6 +185,11 @@
     <Content Include="Views\Shared\_GoogleAnalytics.cshtml" />
     <Content Include="Views\Shared\_Modal.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Portfolio.cshtml" />
+    <Content Include="Views\Home\Development.cshtml" />
+    <Content Include="Views\Home\References.cshtml" />
+    <Content Include="Views\Home\Database.cshtml" />
+    <Content Include="Views\Home\Analysis.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

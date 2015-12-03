@@ -1,0 +1,54 @@
+﻿@{
+    Layout = "~/Views/Shared/Layouts/_Main.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta name="google-site-verification" content="JcsmmQzzAPbXSN-O_hg-rqC83ptdMK-yCg2GHK7G8HM" />
+    <title>Portfolio</title>
+
+</head>
+<body>
+    <div class="panel" id="headerPanel">
+        <div class="text-center">
+            <img src="~/Content/images/AndrewBaldridgeLogo.png" id="logo" />
+            <h1 id="panelHeader">Development and Programming Skills</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="container" id="InfoContainer">
+                <div class="panel" id="homePanel">
+                    <h1 id="PortfolioHeader">Classwork Examples</h1>
+                    <p id="info">
+                        Below are examples of the programming work that I did while at the University of Louisville.
+                        You must have Visual Studio 2012 (or a more recent version) to open these files after downloading.
+                    </p> 
+                    <p id="infoPortfolio">Introductory/Rudimentary Programs:</p>
+                    <p id="infoPortfolio">Console Applications/Progams:</p>
+                        <ul id ="PortfolioCategories">
+                            <li><a href="~/Content/PortfolioDocs/Programming/Lab1.zip" download>LinqTest</a></li>
+                            <li><a href="~/Content/PortfolioDocs/Programming/Prog1.zip" download>Program 1</a></li>
+                            <li><a href="~/Content/PortfolioDocs/Programming/Prog2.zip" download>Program 2</a></li>
+                            <li><a href="~/Content/PortfolioDocs/Programming/Prog3.zip" download>Program 3</a></li>
+                            <li><a href="~/Content/PortfolioDocs/Programming/Prog4.zip" download>Program 4</a>  </li>
+                        </ul>
+                    <p id="infoPortfolio">Web Applications</p>
+                        <ul id ="PortfolioCategories">
+                            <li><a href="~/Content/PortfolioDocs/Programming/BHSCMFinalVersion.zip" download>Baptist Health Supply Chain Solution</a></li>
+                        </ul>                 
+                    <p id="info">For the most recent examples of my development work please visit my Github account,
+                    which you may navigate to below in the navigation bar.</p>
+                    <div class="text-center">
+                        <a href="@Url.Action("Portfolio", "Home")">Back to Portfolio Sections</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

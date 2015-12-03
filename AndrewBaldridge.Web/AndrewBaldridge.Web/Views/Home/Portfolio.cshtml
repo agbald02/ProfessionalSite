@@ -1,0 +1,58 @@
+﻿@{
+    Layout = "~/Views/Shared/Layouts/_Main.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta name="google-site-verification" content="JcsmmQzzAPbXSN-O_hg-rqC83ptdMK-yCg2GHK7G8HM" />
+    <title>Portfolio</title>
+
+</head>
+<body>
+    <div class="panel" id="headerPanel">
+        <div class="text-center">
+            <img src="~/Content/images/AndrewBaldridgeLogo.png" id="logo" />
+            <h1 id="panelHeader">Portfolio</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="container" id="InfoContainer">
+                <div class="panel" id="homePanel">
+                    <ul id="PortfolioCategories">
+                        <li>
+                            <a href="~/Content/PDFs/ABaldridgeResume.pdf" target="_blank">
+                                Resume
+                            </a>
+                        </li>
+                        <li>
+                            <a href="@Url.Action("Development","Home")">
+                                Development and Programming Skills
+                            </a>
+                        </li>
+                        <li>
+                            <a href="@Url.Action("Database","Home")">
+                                Database Work
+                            </a>
+                        </li>
+                        <li>
+                            <a href="@Url.Action("Analysis","Home")">
+                                Business and Systems Analysis 
+                            </a>
+                        </li>
+                        <li>
+                            <a href="@Url.Action("References","Home")">
+                                Available References
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
