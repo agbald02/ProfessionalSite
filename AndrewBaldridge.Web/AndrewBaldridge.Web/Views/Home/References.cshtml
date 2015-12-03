@@ -1,0 +1,43 @@
+﻿@{
+    Layout = "~/Views/Shared/Layouts/_Main.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta name="google-site-verification" content="JcsmmQzzAPbXSN-O_hg-rqC83ptdMK-yCg2GHK7G8HM" />
+    <title>Portfolio</title>
+
+</head>
+<body>
+    <div class="panel" id="headerPanel">
+        <div class="text-center">
+            <img src="~/Content/images/AndrewBaldridgeLogo.png" id="logo" />
+            <h1 id="panelHeader">Portfolio</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="container" id="InfoContainer">
+                <div class="panel" id="homePanel">
+                    <h1 id="PortfolioHeader">References</h1>
+                        <p id="info">Please contact me before attempting to reach one of the references I have listed, 
+                        so I may give you their contact information that they are aware of the situation before being contacted.</p>
+                        <ul id="PortfolioCategories">
+                            <li id="infoPortfolio">Pat Fulton</li>
+                            <li id="infoPortfolio">Logan Carlisle</li>
+                            <li id="infoPortfolio">Stephanie Craig</li>
+                            <li id="infoPortfolio">Andreo Sebastiani</li>
+                        </ul>
+                    <div class="text-center">
+                        <a href="@Url.Action("Portfolio", "Home")">Back to Portfolio Sections</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

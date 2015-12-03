@@ -187,9 +187,9 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Portfolio.cshtml" />
     <Content Include="Views\Home\Development.cshtml" />
-    <Content Include="Views\Home\References.cshtml" />
     <Content Include="Views\Home\Database.cshtml" />
     <Content Include="Views\Home\Analysis.cshtml" />
+    <Content Include="Views\Home\References.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
