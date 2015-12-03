@@ -23,6 +23,7 @@ namespace AndrewBaldridge.Web.Controllers
             return View("Contact");
         }
 
+        [Route("Portfolio")]
         public ActionResult Portfolio()
         {
             return View();
